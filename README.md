@@ -32,7 +32,7 @@ Our research has three key contributions:
 ### What can LLM platforms do to build a secure LLM platform?
 We recommend that LLM platform designers consider security, privacy, and safety &mdash; e.g., by applying our framework &mdash; early in the design of their platforms, to avoid situations in which addressing issues later requires fundamental changes to the platform's architecture. The systemic nature of our findings and examples of attacks' potentials suggests that perhaps such a process was not used in the design of OpenAI's ChatGPT plugin ecosystem.  
 
-In many cases, defensive approaches do not need to be invented from scratch: LLM platform designers can take inspiration from several sources, including from well-established practices to guard against known attacks, by repeating the threat modeling that we did in this paper, and by building on the security principles defined by prior research (e.g.,  such as by [Saltzer and Schroeder](https://web.mit.edu/Saltzer/www/publications/protection/).  
+In many cases, defensive approaches do not need to be invented from scratch: LLM platform designers can take inspiration from several sources, including from well-established practices to guard against known attacks, by repeating the threat modeling that we did in this paper, and by building on the security principles defined by prior research (e.g.,  such as by [Saltzer and Schroeder](https://web.mit.edu/Saltzer/www/publications/protection/)).  
 
 LLM platforms should also enforce the policies that they have proposed and hold the violators accountable, which currently based on our analysis and [anecdotal evidence found online](https://embracethered.com/blog/posts/2023/chatgpt-plugin-vulns-chat-with-code/) does not seem to be the case. 
 
@@ -51,7 +51,7 @@ Plugins could start by following the optional suggestions provided by OpenAI. Fo
 Plugins should also thoroughly test their plugins. With such testing, developers might uncover problems with the OpenAI plugin ecosystem. Such problems can then be brought to OpenAI's attention so that they can be fixed. 
 
 ### Did you disclose your findings to OpenAI?
-We disclosed the plugins named in our manuscript, which demostrate the potental to pose a risk, to both OpenAI and their developers. OpenAI responded that they appreciate our effort in keeping the platform secure but have determined that the issues do not pose a security risk to the platform. However, we clarified to them that our assessment of these issues is that they pose a risk to users, plugins, and the LLM platform and should be seriously considered by OpenAI. 
+We disclosed the plugins named in our manuscript, which demonstrate the potential to pose a risk, to both OpenAI and their developers. OpenAI responded that they appreciate our effort in keeping the platform secure but have determined that the issues do not pose a security risk to the platform. However, we clarified to them that our assessment of these issues is that they pose a risk to users, plugins, and the LLM platform and should be seriously considered by OpenAI. 
 
 Upon disclosing to plugin authors, we learned that in at least one case the plugin developer also disclosed the situation to OpenAI because OpenAI (not them) were in the position to fix the issue, but OpenAI did not.
 
