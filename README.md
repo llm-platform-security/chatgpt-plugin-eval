@@ -3,7 +3,7 @@ Large language model (LLM) platforms, such as OpenAI's ChatGPT, have recently be
 
 Thus, we propose a framework that lays a foundation for LLM platform designers to analyze and improve the security, privacy, and safety of current and future plugin-integrated LLM platforms. Our framework is a formulation of an attack taxonomy that is developed by iteratively exploring how plugins, LLM platforms, and users could leverage their capabilities and responsibilities to mount attacks against each other. As part of our iterative process, we apply our framework in the context of OpenAI's plugin ecosystem. (While we look at OpenAI, we believe that the issues have the potential to be industry-wide.) We uncover plugins that concretely demonstrate the potential for the issues that we outline in our attack taxonomy to manifest in practice. We conclude by discussing novel challenges and by providing recommendations to improve the security, privacy, and safety of future LLM platforms.
 
-We provide a brief FAQ below to highlight some of our findings. We suggest reading the full paper for more details. Please reach out to us if you have additional questions.
+We provide a brief FAQ below to highlight some of our findings. We suggest reading the full paper for more details. Please reach out to us if you have additional questions. Link to the paper: https://arxiv.org/abs/2309.10254
 
 
 ## Frequently asked questions
