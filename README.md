@@ -78,10 +78,10 @@ This work was supported in part by the National Science Foundation under grant n
 
 ## Citation
 ```
-@article{Iqbal23OpenAIPluginAnalysis,
+@inproceedings{Iqbal24OpenAIPluginAnalysisAIES,
   title     = {LLM Platform Security: Applying a Systematic Evaluation Framework to OpenAI's ChatGPT Plugins},
-  author    = {Umar Iqbal, Tadayoshi Kohno, Franziska Roesner},
-  booktitle = {arXiv},
-  year      = {2023}
+  author    = {Umar Iqbal and Tadayoshi Kohno and Franziska Roesner},
+  booktitle = {Proceedings of the 2024 AAAI/ACM Conference on AI, Ethics, and Society (AIES)},
+  year      = {2024}
 }
 ```
